@@ -43,7 +43,7 @@ public class Decks {
      * @return true if this deck is empty, false otherwise.
      */
     public boolean isEmpty() {
-        /* *** TO BE IMPLEMENTED IN ACTIVITY 2 *** */
+       
         if(size() == 0){
             return true;
         }
@@ -57,7 +57,7 @@ public class Decks {
      * @return the number of undealt cards in this deck.
      */
     public int size() {
-        /* *** TO BE IMPLEMENTED IN ACTIVITY 2 *** */
+        
         return size;
     }
 
@@ -66,7 +66,7 @@ public class Decks {
      * and reset the size to represent the entire deck.
      */
     public void shuffle() {
-        /* *** TO BE IMPLEMENTED IN ACTIVITY 4 *** */
+       
     }
 
     public void randomShuffle(){
@@ -79,7 +79,7 @@ public class Decks {
      *         previously dealt.
      */
     public Card deal() {
-        /* *** TO BE IMPLEMENTED IN ACTIVITY 2 *** */
+       
         if(size > 0){
             size -= 1;
             Collections.shuffle(cards);
